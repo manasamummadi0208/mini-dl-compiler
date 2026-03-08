@@ -8,6 +8,7 @@ The goal of this project is to demonstrate how machine learning models can be co
 
 ## System Architecture
 
+```
 PyTorch Model
       ↓
 FX Graph Extraction
@@ -15,15 +16,16 @@ FX Graph Extraction
 Custom Intermediate Representation (IR)
       ↓
 Optimization Passes
-  • Constant Folding
-  • Dead Code Elimination
-  • Operator Fusion
+    • Constant Folding
+    • Dead Code Elimination
+    • Operator Fusion
       ↓
 Optimized IR Graph
       ↓
 Custom Execution Engine
       ↓
 Optimized Model Inference
+```
 
 ---
 
