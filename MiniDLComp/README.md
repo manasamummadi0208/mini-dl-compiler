@@ -1,4 +1,4 @@
-# MiniDLComp – Lightweight Deep Learning Compiler
+# MiniDLComp - Lightweight Deep Learning Compiler
 
 MiniDLComp is a lightweight deep learning compiler that converts a PyTorch model into a custom intermediate representation (IR), applies compiler-style optimization passes, and executes the optimized graph.
 
@@ -82,18 +82,22 @@ Operator fusion reduces the number of operations executed during inference.
 
 ## How to Run
 
-Install dependencies
-'''bash
-pip install -r requirements.txt
-'''
+### Install dependencies
 
-## Run the project
-'''bash
+```bash
+pip install -r requirements.txt
+```
+
+### Run the project
+
+```bash
 python main.py
-'''
+```
+
+---
 
 ## Author
 
-**Manasa Mummadi**
-Master's in Computer Science
+**Manasa Mummadi**  
+Master's in Computer Science  
 George Mason University
